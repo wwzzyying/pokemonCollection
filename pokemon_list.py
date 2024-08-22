@@ -11,7 +11,7 @@ headers = {
 params = {
     'pokemon_ability_id': '',
     'zukan_id_from': 1,
-    'zukan_id_to': 807
+    'zukan_id_to': 1025
 }
 
 
