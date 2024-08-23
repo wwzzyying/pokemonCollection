@@ -4,6 +4,8 @@ import requests
 from pokemonGo import pokemon_db as db
 
 list_url = 'https://cn.portal-pokemon.com/play/pokedex/api/v1'
+# img base url
+resource_url = 'https://www.pokemon.cn/play/resources/pokedex'
 headers = {
     'Referer': 'https://cn.portal-pokemon.com/play/pokedex',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36'
