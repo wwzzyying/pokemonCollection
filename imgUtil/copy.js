@@ -1,7 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 const makeDir = require('make-dir')
-const datalist = require('../database/1.json')
+const datalist = require('../db/pokemon.index.json')
 
 function getPath(prefix, pathname) {
   pathname = path.basename(pathname)
